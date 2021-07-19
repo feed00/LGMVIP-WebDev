@@ -1,9 +1,4 @@
-/* 
- * 	Core Owl Carousel CSS File
- *	v1.3.3
- */
 
-/* clearfix */
 .owl-carousel .owl-wrapper:after {
 	content: ".";
 	display: block;
@@ -12,7 +7,7 @@
 	line-height: 0;
 	height: 0;
 }
-/* display none until init */
+
 .owl-carousel{
 	display: none;
 	position: relative;
@@ -69,24 +64,22 @@
   -ms-transform: translate3d(0,0,0);
 }
 
-/* Feel free to change duration  */ 
+
 .animated  {
   -webkit-animation-duration : 1000 ms  ;
   animation-duration : 1000 ms  ;
   -webkit-animation-fill-mode : both  ;
   animation-fill-mode : both  ;
 }  
-/* .owl-animated-out - only for current item */ 
-/* This is very important class. Use z-index if you want move Out item above In item */ 
+ 
 .owl-animated-out {
   z-index : 1 
    }
-/* .owl-animated-in - only for upcoming item
-/* This is very important class. Use z-index if you want move In item above Out item */ 
+
 .owl-animated-in {
   z-index : 0 
    }
-/* .fadeOut is style taken from Animation.css and this is how it looks in owl.carousel.css:  */ 
+
 .fadeOut  {
   -webkit-animation-name : fadeOut  ;
   animation-name : fadeOut  ;
