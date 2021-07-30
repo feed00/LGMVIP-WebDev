@@ -1,10 +1,7 @@
 -- phpMyAdmin SQL Dump
 -- version 4.7.6
 -- https://www.phpmyadmin.net/
---
 -- Host: localhost
-
-
 -- PHP Version: 7.2.0
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
